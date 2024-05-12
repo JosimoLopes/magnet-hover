@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5a5a5a;
+}
+
+[data-icon="box"] {
+  position: relative !important;
+  width: 100px;
+  height: 100px;
+  margin: 40vh auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a1a1a1;
+}
+
+.icon {
+  display: block;
+  transition: transform 0s ease;
+}
